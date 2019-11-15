@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(500, 500);
-  background(0, 0, 0);
-  stroke(100, 100, 100);
+  background(254, 249, 240);
+  stroke(31, 31, 31);
   strokeWeight(50);
 }
 
@@ -23,16 +23,10 @@ function draw() {
     }
 }
 
-function preload() {
-  photo = loadImage('assets/sketch.jpg');
-}
-
-function draw() {
-  image(photo, 0, 0);
-}
-
-function keyTyped() {
-  if (key === 's') {
-    photo.save('sketch', 'png');
+function keyCode(){
+  if (keyCode === UP_ARROW){
+    background(31, 31, 31);
+  } else if (keyCode === DOWN_ARROW) {
+    background(254, 249, 240);
   }
 }
