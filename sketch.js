@@ -1,4 +1,4 @@
-var saveCount=0;
+// var saveCount=0;
 function setup() {
   createCanvas(500, 500);
   fill(254, 249, 240);
@@ -24,10 +24,10 @@ function draw() {
     }
 }
 
-function keyPressed(){
-  if (key == 'x'){
-    save("screenshot" +
-  saveCount +".png");
-  saveCount++;
-  }
-}
+// function keyPressed(){
+//   if (key == 'x'){
+//     save("screenshot" +
+//   saveCount +".png");
+//   saveCount++;
+//   }
+// }
