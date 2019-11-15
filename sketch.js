@@ -1,6 +1,7 @@
+var saveCount=0;
 function setup() {
   createCanvas(500, 500);
-  background(254, 249, 240);
+  fill(254, 249, 240);
   stroke(31, 31, 31);
   strokeWeight(50);
 }
@@ -23,10 +24,10 @@ function draw() {
     }
 }
 
-function keyCode(){
-  if (keyCode === UP_ARROW){
-    background(31, 31, 31);
-  } else if (keyCode === DOWN_ARROW) {
-    background(254, 249, 240);
+function keyPressed(){
+  if (key == 'x'){
+    save("screenshot" +
+  saveCount +".png");
+  saveCount++;
   }
 }
