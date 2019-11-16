@@ -1,8 +1,8 @@
-// var saveCount=0;
+var saveCount = 0;
 function setup() {
-  createCanvas(500, 500);
-  fill(254, 249, 240);
-  stroke(31, 31, 31);
+  createCanvas(875, 500);
+  background(81, 81, 81);
+  stroke(253, 49, 85);
   strokeWeight(50);
 }
 
@@ -15,19 +15,19 @@ function draw() {
   }
 
   function keyTyped() {
-    if (key === 'r'){
-      stroke(253, 49, 85);
-    } else if (key === 'y') {
+    if (key === 'y'){
       stroke(255, 247, 36);
-    } else if (key = 'b') {
+    } else if (key === 'b') {
       stroke(181, 255, 255);
-    }
-}
+    } else if (key === 'd') {
+      stroke(253, 49, 85);
+      }
+  }
 
-// function keyPressed(){
-//   if (key == 'x'){
-//     save("screenshot" +
-//   saveCount +".png");
-//   saveCount++;
-//   }
-// }
+  function keyPressed() {
+    if (key === 'x') {
+      save("screenshot" +
+     saveCount +".png");
+     saveCount++;
+      }
+  }

@@ -3,5 +3,12 @@ html, body {
   padding: 0;
 }
 canvas {
-  display: block;
+display: block;
+
+  }
+
+body{
+font-size: 30;
+font-family: sans-serif;
+text-align: left;
 }
