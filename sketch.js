@@ -25,8 +25,7 @@ function draw() {
 
   function keyPressed() {
     if (key === 'x') {
-      save("screenshot" +
-     saveCount +".png");
+      save("sketch" +".jpg");
      saveCount++;
       }
   }
