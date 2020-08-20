@@ -19,18 +19,45 @@ header {
   font-style: normal;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 28px;
+  font-size: 30px;
   text-align: center;
   text-transform: uppercase;
 }
 
 h1 {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
   padding-left: 200px;
   padding-right: 200px;
   font-style: normal;
   font-weight: normal;
+  font-family: sans-serif;
+  font-size: 28px;
+  text-align: justify;
+}
+
+p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-style: normal;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 26px;
+  text-align: justify;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.container desc {
+  font-style: normal;
+  font-weight: bold;
   font-family: sans-serif;
   font-size: 26px;
   text-align: justify;
@@ -45,6 +72,6 @@ ul {
   font-style: normal;
   font-weight: normal;
   font-family: sans-serif;
-  font-size: 24px;
+  font-size: 26px;
   text-align: justify;
 }
