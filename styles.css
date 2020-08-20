@@ -53,6 +53,8 @@ p {
   padding-bottom: 25px;
   padding-left: 200px;
   padding-right: 200px;
+  width: 100%;
+  height: auto;
 }
 
 .desc {
