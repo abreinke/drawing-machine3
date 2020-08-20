@@ -22,8 +22,6 @@ header {
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
-  width: 90%;
-  height: auto;
 }
 
 h1 {
@@ -36,8 +34,6 @@ h1 {
   font-family: sans-serif;
   font-size: 28px;
   text-align: justify;
-  width: 90%;
-  height: auto;
 }
 
 .container {
@@ -45,8 +41,6 @@ h1 {
   padding-right: 300px;
   padding-top: 25px;
   padding-bottom: 25px;
-  width: 90%;
-  height: auto;
 }
 
 .desc {
