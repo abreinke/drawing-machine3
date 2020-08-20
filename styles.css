@@ -14,8 +14,8 @@ canvas {
 header {
   padding-left: 200px;
   padding-right: 300px;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 50px;
+  padding-bottom: 25px;
   font-style: normal;
   font-weight: bold;
   font-family: sans-serif;
