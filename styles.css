@@ -3,14 +3,6 @@ html, body {
   padding: inherit;
 }
 
-canvas {
-  padding-left: 200px;
-  padding-right: 300px;
-  padding-top: 25px;
-  padding-bottom:25px;
-  display: grid;
-}
-
 header {
   padding-left: 200px;
   padding-right: 300px;
@@ -58,4 +50,12 @@ ul {
   font-family: sans-serif;
   font-size: 26px;
   text-align: justify;
+}
+
+canvas {
+  padding-left: 200px;
+  padding-right: 300px;
+  padding-top: 25px;
+  padding-bottom:25px;
+  display: grid;
 }
